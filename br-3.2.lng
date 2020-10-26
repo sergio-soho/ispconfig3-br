@@ -5165,7 +5165,7 @@ $wb['Content Filter'] = 'Filtro de Conteúdo';
 $wb['Global Filters'] = 'Filtros Globais';
 $wb['Domain Alias'] = 'Alias de domínio';
 $wb['Relay Recipients'] = 'Destinatários de retransmissão';
-$wb['Mailbox quota'] = 'Cota da conta de email';
+$wb['Mailbox quota'] = 'Cotas das contas de email';
 $wb['add_header_txt'] = 'Cabeçalho (adicionar "X-Spam: Yes")';
 $wb['rewrite_subject_txt'] = 'Assunto (adicionar "***SPAM***" no início)';
 ?>
@@ -5853,7 +5853,7 @@ $wb['source_error_regex'] = 'Domínio de origem é inválido.';
 
 --|mail|br|br_user_quota_stats_list.lng
 <?php
-$wb['list_head_txt'] = 'Cota da conta de email';
+$wb['list_head_txt'] = 'Cotas das contas de email';
 $wb['quota_txt'] = 'Cota';
 $wb['name_txt'] = 'Nome';
 $wb['email_txt'] = 'Endereço de email';
