@@ -4169,7 +4169,7 @@ $wb['ttl_range_error'] = 'O TTL mínimo são 60 segundos.';
 <?php
 $wb['server_id_txt'] = 'Servidor';
 $wb['origin_txt'] = 'Zona DNS';
-$wb['secondary_zone_txt'] = 'Zona DNS secundária';
+$wb['Secondary DNS Zone'] = 'Zona DNS secundária';
 $wb['ns_txt'] = 'NS (Endereço IP)';
 $wb['active_txt'] = 'Ativo';
 $wb['limit_dns_slave_zone_txt'] = 'O limite de zonas DNS secundárias para esta conta foi alcançado.';
