@@ -4116,6 +4116,7 @@ $wb['DNS ptr'] = 'PTR';
 $wb['DNS RP'] = 'RP';
 $wb['DNS Zone'] = 'ZONA';
 $wb['Records'] = 'Registros';
+$wb['Zone settings'] = 'Configurações da Zona';
 $wb['DNS SRV'] = 'SRV';
 $wb['DNS TXT Record'] = 'Registro TXT';
 $wb['DNS TXT'] = 'TXT';
