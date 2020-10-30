@@ -134,12 +134,12 @@ $wb['datalog_status_d_mail_mailinglist'] = 'Remover lista de emails';
 $wb['datalog_status_i_shell_user'] = 'Adicionar usuário Shell';
 $wb['datalog_status_u_shell_user'] = 'Atualizar usuário Shell';
 $wb['datalog_status_d_shell_user'] = 'Remover usuário Shell';
-$wb['datalog_status_i_web_folder'] = 'Adicionar pasta protegida';
-$wb['datalog_status_u_web_folder'] = 'Atualizar pasta protegida';
-$wb['datalog_status_d_web_folder'] = 'Remover pasta protegida';
-$wb['datalog_status_i_web_folder_user'] = 'Adicionar usuário de pasta protegida';
-$wb['datalog_status_u_web_folder_user'] = 'Atualizar usuário de pasta protegida';
-$wb['datalog_status_d_web_folder_user'] = 'Remover usuário de pasta protegida';
+$wb['datalog_status_i_web_folder'] = 'Adicionar pasta Web';
+$wb['datalog_status_u_web_folder'] = 'Atualizar pasta Web';
+$wb['datalog_status_d_web_folder'] = 'Remover pasta Web';
+$wb['datalog_status_i_web_folder_user'] = 'Adicionar usuário de pasta Web';
+$wb['datalog_status_u_web_folder_user'] = 'Atualizar usuário de pasta Web';
+$wb['datalog_status_d_web_folder_user'] = 'Remover usuário de pasta Web';
 $wb['datalog_status_i_xmpp_domain'] = 'Adicionar domínio XMPP';
 $wb['datalog_status_u_xmpp_domain'] = 'Atualizar domínio XMPP';
 $wb['datalog_status_d_xmpp_domain'] = 'Remover domínio XMPP';
@@ -708,6 +708,8 @@ $wb['Email-Templates'] = 'Gabaritos de email';
 
 --|client|br|br_client_template.lng
 <?php
+$wb['Client-Templates'] = 'Gabaritos de clientes';
+$wb['Template'] = 'Gabarito'; 
 $wb['ssh_chroot_notempty'] = 'Nenhuma opção chroot SSH selecionada. Selecione ao menos uma opção.';
 $wb['template_type_txt'] = 'Tipo de gabarito';
 $wb['template_name_txt'] = 'Nome do gabarito';
@@ -1119,7 +1121,7 @@ $wb['limit_database_user_error_notint'] = 'O limite de usuários do Banco de Dad
 $wb['limit_database_quota_txt'] = 'Cota do Banco de Dados';
 $wb['limit_database_quota_error_notint'] = 'A cota do Banco de Dados deve ser um número.';
 $wb['Reseller'] = 'Revenda';
-$wb['Address'] = 'Endereço';
+$wb['Address'] = 'Revenda';
 $wb['Limits'] = 'Limites';
 ?>
 
@@ -1327,7 +1329,7 @@ $wb['btn_cancel_txt'] = 'Cancelar';
 $wb['invalid_vat_id'] = 'O ID do VAT é inválido.';
 $wb['email_error_empty'] = 'O email está vazio';
 $wb['limit_directive_snippets_txt'] = 'Exibir configurações de seleção do servidor Web';
-$wb['Address'] = 'Endereço';
+$wb['Address'] = 'Cliente';
 $wb['Limits'] = 'Limites';
 ?>
 
@@ -1429,7 +1431,7 @@ $wb['Mail err-Log'] = 'Exibir log de erros de email';
 $wb['System-Log'] = 'Exibir log do sistema';
 $wb['ISPC Cron-Log'] = 'Exibir log do cron';
 $wb['Freshclam-Log'] = 'Exibir log do Freshclam';
-$wb['Let\'s Encrypt log'] = 'Exibir log do Let\'s Encrypt';
+$wb["Let\'s Encrypt log"] = "Exibir log do Let\'s Encrypt";
 $wb['Clamav-Log'] = 'Exibir log do Clamav';
 $wb['ISPConfig-Log'] = 'Exibir log do ISPConfig';
 $wb['RKHunter-Log'] = 'Exibir log do RKHunter';
@@ -1438,7 +1440,7 @@ $wb['Data Log History'] = 'Exibir histórico do log';
 $wb['fail2ban-Log'] = 'Exibir log do Fail2ban';
 $wb['MongoDB-Log'] = 'Exibir log do MongoDB';
 $wb['IPTables'] = 'Exibir regras de Firewall';
-$wb['OpenVz VE BeanCounter'] = 'Exibir beancounter do openvz';
+$wb['OpenVz VE BeanCounter'] = 'Exibir parâmetros OpenVZ';
 $wb['monitor_general_serverstate_txt'] = 'Estado do servidor';
 $wb['monitor_general_systemstate_txt'] = 'Estado do sistema';
 $wb['monitor_diskusage_filesystem_txt'] = 'Arquivos do sistema';
@@ -1457,7 +1459,7 @@ $wb['monitor_logs_mailwarn_txt'] = 'Log - Alertas de email';
 $wb['monitor_logs_mailerr_txt'] = 'Log - Erros de email';
 $wb['monitor_logs_messages_txt'] = 'Log - Mensagens do sistema';
 $wb['monitor_logs_ispccron_txt'] = 'Log - Tarefas no Cron';
-$wb['monitor_logs_letsencrypt_txt'] = 'Log - Lets Encrypt';
+$wb['monitor_logs_letsencrypt_txt'] = 'Log - Let\'s Encrypt';
 $wb['monitor_logs_freshclam_txt'] = 'Log - Freshclam';
 $wb['monitor_logs_clamav_txt'] = 'Log - Clamav';
 $wb['monitor_logs_ispc_txt'] = 'Log - ISPConfig';
@@ -1538,9 +1540,9 @@ $wb['monitor_title_cpuinfo_txt'] = 'Informações de CPU';
 $wb['monitor_title_updatestate_txt'] = 'Atualizar Estado';
 $wb['monitor_title_mailq_txt'] = 'Fila de emails';
 $wb['monitor_title_raidstate_txt'] = 'Estado do RAID';
-$wb['monitor_title_rkhunterlog_txt'] = 'Log do RKHunter';
-$wb['monitor_title_fail2ban_txt'] = 'Log do Fail2ban';
-$wb['monitor_title_mongodb_txt'] = 'Log do MongoDB';
+$wb['monitor_title_rkhunterlog_txt'] = 'Log - RKHunter';
+$wb['monitor_title_fail2ban_txt'] = 'Log - Fail2ban';
+$wb['monitor_title_mongodb_txt'] = 'Log - MongoDB';
 $wb['monitor_title_iptables_txt'] = 'Regras de Firewall';
 $wb['monitor_title_beancounter_txt'] = 'Beancounter OpenVZ';
 $wb['monitor_updates_nosupport_txt'] = 'Sua distribuição não é suportada por este monitoramento';
@@ -1551,8 +1553,8 @@ $wb['no_permissions_to_view_monit_txt'] = 'Você não tem permissão para acessa
 $wb['Munin'] = 'Exibir Munin';
 $wb['no_munin_url_defined_txt'] = 'Nenhuma URL do Munin definida.';
 $wb['no_permissions_to_view_munin_txt'] = 'Você não tem permissão para acessar o Munin.';
-$wb['Database size'] = 'Tamanho do Banco de Dados';
-$wb['MySQL Database size'] = 'Tamanho do Banco de Dados MySQL';
+$wb['Database size'] = 'Banco de Dados em uso';
+$wb['MySQL Database size'] = 'Exibir uso BDs MySQL';
 ?>
 
 --|monitor|br|br_datalog_list.lng
@@ -1633,8 +1635,8 @@ $wb['Database User'] = 'Usuários do Banco de Dados';
 $wb['Web Access'] = 'Acesso Web';
 $wb['FTP-User'] = 'Usuários FTP';
 $wb['Webdav-User'] = 'Usuários Webdav';
-$wb['Folder'] = 'Pastas protegidas';
-$wb['Folder users'] = 'Usuários de pastas protegidas';
+$wb['Folder'] = 'Pastas Web';
+$wb['Folder users'] = 'Usuários de Pastas Web';
 $wb['Command Line'] = 'Linha de comando';
 $wb['Shell-User'] = 'Usuários shell';
 $wb['Cron Jobs'] = 'Tarefas no Cron';
@@ -1735,6 +1737,7 @@ $wb['limit_database_quota_free_txt'] = 'Cota do Banco de Dados disponível';
 
 --|sites|br|br_ftp_user.lng
 <?php
+$wb['FTP User'] = 'Usuário FTP';
 $wb['uid_txt'] = 'ID do usuário (UID)';
 $wb['gid_txt'] = 'ID do grupo (GID)';
 $wb['dir_txt'] = 'Diretório';
@@ -1816,7 +1819,7 @@ $wb['ssl_action_txt'] = 'Ação SSL';
 $wb['ssl_domain_txt'] = 'Domínio SSL';
 $wb['server_id_txt'] = 'Servidor';
 $wb['domain_txt'] = 'Domínio';
-$wb['web_folder_error_regex'] = 'Pasta web é inválida. Por favor não utilize o caractere '/'(barra).';
+$wb['web_folder_error_regex'] = 'Pasta Web é inválida. Por favor não utilize o caractere '/'(barra).';
 $wb['type_txt'] = 'Tipo';
 $wb['parent_domain_id_txt'] = 'Site Pai';
 $wb['redirect_type_txt'] = 'Tipo de redirecionamento';
@@ -1945,6 +1948,7 @@ $wb['directive_snippets_id_txt'] = 'Configurações desejadas';
 
 --|sites|br|br_cron.lng
 <?php
+$wb['Cron Job'] = 'Tarefas no Cron';
 $wb['server_id_txt'] = 'Servidor';
 $wb['parent_domain_id_txt'] = 'Site pai';
 $wb['active_txt'] = 'Ativo';
@@ -1973,6 +1977,7 @@ $wb['command_error_empty'] = 'Comando a executar está vazio.';
 
 --|sites|br|br_webdav_user.lng
 <?php
+$wb['Webdav User'] = 'Usuário Webdav'; 
 $wb['dir_txt'] = 'Diretório';
 $wb['server_id_txt'] = 'Servidor';
 $wb['parent_domain_id_txt'] = 'Site';
@@ -2007,7 +2012,7 @@ $wb['sum_txt'] = 'Soma';
 
 --|sites|br|br_shell_user_list.lng
 <?php
-$wb['list_head_txt'] = 'Usuário Shell';
+$wb['list_head_txt'] = 'Usuários Shell';
 $wb['active_txt'] = 'Ativo';
 $wb['server_id_txt'] = 'Servidor';
 $wb['parent_domain_id_txt'] = 'Site';
@@ -2024,9 +2029,9 @@ $wb['add_new_record_txt'] = 'Adicionar novo usuário';
 
 --|sites|br|br_web_folder_user_list.lng
 <?php
-$wb['list_head_txt'] = 'Usuário de Pasta';
+$wb['list_head_txt'] = 'Usuários de Pasta Web';
 $wb['active_txt'] = 'Ativo';
-$wb['web_folder_id_txt'] = 'Pasta';
+$wb['web_folder_id_txt'] = 'Usuários de Pasta Web';
 $wb['username_txt'] = 'Usuário';
 $wb['add_new_record_txt'] = 'Adicionar novo usuário';
 ?>
@@ -2056,6 +2061,7 @@ $wb['filter_txt'] = 'Pesquisar';
 
 --|sites|br|br_shell_user.lng
 <?php
+$wb['Shell User'] = 'Usuário Shell';
 $wb['puser_txt'] = 'Usuário Web';
 $wb['pgroup_txt'] = 'Grupo Web';
 $wb['shell_txt'] = 'Shell';
@@ -2767,7 +2773,7 @@ $wb['parent_domain_id_txt'] = 'Site';
 
 --|sites|br|br_web_folder_list.lng
 <?php
-$wb['list_head_txt'] = 'Pasta';
+$wb['list_head_txt'] = 'Pastas Web';
 $wb['active_txt'] = 'Ativo';
 $wb['server_id_txt'] = 'Servidor';
 $wb['parent_domain_id_txt'] = 'Site';
@@ -2822,7 +2828,7 @@ $wb['add_new_record_txt'] = 'Adicionar novo subdomínio';
 
 --|sites|br|br_user_quota_stats_list.lng
 <?php
-$wb['list_head_txt'] = 'Cota do disco para site';
+$wb['list_head_txt'] = 'Cota do disco para sites';
 $wb['domain_txt'] = 'Domínio/Site';
 $wb['system_user_txt'] = 'Usuário Linux';
 $wb['used_txt'] = 'Espaço utilizado';
@@ -3051,7 +3057,8 @@ $wb['tooltip_delete_unused_jailkit_txt'] = 'Remover o ambiente chroot Jailkit qu
 
 --|sites|br|br_web_folder_user.lng
 <?php
-$wb['web_folder_id_txt'] = 'Pasta';
+$wb['Web folder user'] = 'Usuários de pasta Web';
+$wb['web_folder_id_txt'] = 'Pasta Web';
 $wb['username_txt'] = 'Usuário';
 $wb['password_txt'] = 'Senha';
 $wb['active_txt'] = 'Ativo';
@@ -3067,6 +3074,7 @@ $wb['error_user_exists_already_txt'] = 'Já existe um registro igual para este u
 
 --|sites|br|br_web_folder.lng
 <?php
+$wb['Web Folder'] = 'Pastas Web'; 
 $wb['server_id_txt'] = 'Servidor';
 $wb['parent_domain_id_txt'] = 'Site';
 $wb['path_txt'] = 'Caminho';
@@ -3516,7 +3524,7 @@ $wb['xmpp_port_pastebin_txt'] = 'Pastebin';
 $wb['xmpp_port_bosh_txt'] = 'BOSH';
 $wb['disable_bind_log_txt'] = 'Desabilitar mensagens de alerta do Bind9';
 $wb['apps_vhost_enabled_txt'] = 'Habilitar apps-vhost';
-$wb['skip_le_check_txt'] = 'Ignorar verificação do Let'\'s Encrypt';
+$wb['skip_le_check_txt'] = 'Ignorar verificação do Let\'s Encrypt';
 $wb['migration_mode_txt'] = 'Modo migração de servidor';
 $wb['nginx_enable_pagespeed_txt'] = 'Tornar pagespeed disponível';
 $wb['logging_txt'] = 'Gravar logs de acesso e erros de sites';
@@ -3580,7 +3588,7 @@ $wb['Monitor functions'] = 'Funções de monitoramento';
 $wb['Client functions'] = 'Funções de cliente';
 $wb['Sites cron functions'] = 'Funções de tarefas no Cron';
 $wb['Sites database functions'] = 'Funções do Banco de Dados';
-$wb['Sites Protected folder functions'] = 'Funções de pastas protegidas';
+$wb['Sites Protected folder functions'] = 'Funções de Pastas Web';
 $wb['Sites FTP-User functions'] = 'Funções de usuários FTP';
 $wb['Sites Shell-User functions'] = 'Funções de usuários Shell';
 $wb['Sites Domain functions'] = 'Funções de domínios de sites';
@@ -3590,24 +3598,24 @@ $wb['Sites Subdomain functions'] = 'Funções de subdomínios de sites';
 $wb['Sites APS functions'] = 'Funções de apps e complementos';
 $wb['Sites WebDAV-User functions'] = 'Funções de usuários Webdav';
 $wb['DNS zone functions'] = 'Funções de zonas DNS';
-$wb['DNS a functions'] = 'Funções de registro A DNS';
-$wb['DNS aaaa functions'] = 'Funções de registro AAAA DNS';
-$wb['DNS alias functions'] = 'Funções de ALIAS DNS';
-$wb['DNS caa functions'] = 'Funções de CAA DNS';
-$wb['DNS cname functions'] = 'Funções de CNAME DNS';
-$wb['DNS dname functions'] = 'Funções de DNAME DNS';
-$wb['DNS hinfo functions'] = 'Funções de HINFO DNS';
-$wb['DNS mx functions'] = 'Funções de MX DNS';
-$wb['DNS ns functions'] = 'Funções de NS DNS';
-$wb['DNS naptr functions'] = 'Funções de NAPTR DNS';
-$wb['DNS ptr functions'] = 'Funções de PTR DNS';
-$wb['DNS rp functions'] = 'Funções de RP DNS';
-$wb['DNS srv functions'] = 'Funções de SVR DNS';
-$wb['DNS txt functions'] = 'Funções de TXT DNS';
-$wb['DNS ds functions'] = 'Funções de DS DNS';
-$wb['DNS loc functions'] = 'Funções de LOC DNS';
-$wb['DNS tlsa functions'] = 'Funções de TLSA DNS';
-$wb['DNS sshfp functions'] = 'Funções de SSHFP DNS'; 
+$wb['DNS a functions'] = 'Funções de registro DNS A';
+$wb['DNS aaaa functions'] = 'Funções de registro DNS AAAA';
+$wb['DNS alias functions'] = 'Funções de registro DNS ALIAS';
+$wb['DNS caa functions'] = 'Funções de registro DNS CAA';
+$wb['DNS cname functions'] = 'Funções de registro DNS CNAME';
+$wb['DNS dname functions'] = 'Funções de registro DNS DNAME';
+$wb['DNS hinfo functions'] = 'Funções de registro DNS HINFO';
+$wb['DNS mx functions'] = 'Funções de registro DNS MX';
+$wb['DNS ns functions'] = 'Funções de registro DNS NS';
+$wb['DNS naptr functions'] = 'Funções de registro DNS NAPTR';
+$wb['DNS ptr functions'] = 'Funções de registro DNS PTR';
+$wb['DNS rp functions'] = 'Funções de registro DNS RP';
+$wb['DNS srv functions'] = 'Funções de registro DNS SVR';
+$wb['DNS txt functions'] = 'Funções de registro DNS TXT';
+$wb['DNS ds functions'] = 'Funções de registro DNS DS';
+$wb['DNS loc functions'] = 'Funções de registro DNS LOC';
+$wb['DNS tlsa functions'] = 'Funções de registro DNS TLSA';
+$wb['DNS sshfp functions'] = 'Funções de registro DNS SSHFP'; 
 $wb['OpenVZ VM functions'] = 'Funções do OpenVZ';
 $wb['generate_password_txt'] = 'Gerar Senha';
 $wb['repeat_password_txt'] = 'Repetir Senha';
@@ -4106,20 +4114,31 @@ $wb['iptables_error_unique'] = 'Já existe uma regra de Firewall idêntica para 
 <?php
 $wb['DNS'] = 'DNS';
 $wb['Zones'] = 'Zonas';
-$wb['DNS A'] = 'A';
-$wb['DNS ALIAS'] = 'ALIAS';
-$wb['DNS CNAME'] = 'CNAME';
-$wb['DNS hinfo'] = 'HINFO';
-$wb['DNS mx'] = 'MX';
-$wb['DNS ns'] = 'NS';
-$wb['DNS ptr'] = 'PTR';
-$wb['DNS RP'] = 'RP';
+$wb['DNS A'] = 'Registro A';
+$wb['DNS ALIAS'] = 'Registro ALIAS';
+$wb['DNS CAA Record'] = 'Registro CAA';
+$wb['DNS CNAME'] = 'Registro CNAME';
+$wb['DNS hinfo'] = 'Registro HINFO';
+$wb['DNS mx'] = 'Registro MX';
+$wb['DNS ns'] = 'Registro NS';
+$wb['DNS ptr'] = 'Registro PTR';
+$wb['DNS RP'] = 'Registro RP';
+$wb['DNS DS Record'] = 'Registro DS';
+$wb['DNS DKIM Record'] = 'Registro DKIM';
+$wb['DNS DMARC Record'] = 'Registro DMARC';
+$wb['DNS tlsa'] = 'Registro TLSA';
 $wb['DNS Zone'] = 'ZONA';
 $wb['Records'] = 'Registros';
 $wb['Zone settings'] = 'Configurações da Zona';
-$wb['DNS SRV'] = 'SRV';
+$wb['DNS SRV'] = 'Registro SRV';
+$wb['DNS AAAA'] = 'Registro AAAA';
 $wb['DNS TXT Record'] = 'Registro TXT';
-$wb['DNS TXT'] = 'TXT';
+$wb['DNS TXT'] = 'Registro TXT';
+$wb['DNS NAPTR'] = 'Registro NAPTR';
+$wb['DNS SPF Record'] = 'Registro SPF';
+$wb['DNS LOC Record'] = 'Registro LOC';
+$wb['DNS DNAME'] = 'Registro DNAME';
+$wb['DNS SSHFP Record'] = 'Registro SSHFP';
 $wb['DNS Wizard'] = 'Assistente DNS';
 $wb['Add DNS Zone'] = 'Adicionar zona DNS';
 $wb['Templates'] = 'Gabaritos';
@@ -4130,6 +4149,7 @@ $wb['Import Zone File'] = 'Importar arquivo de zona';
 
 --|dns|br|br_dns_ds.lng
 <?php
+$wb['DNS DS'] = 'Registro DS';
 $wb['server_id_txt'] = 'Servidor';
 $wb['zone_txt'] = 'Zona';
 $wb['name_txt'] = 'Nome do host';
@@ -4227,7 +4247,7 @@ $wb['ttl_range_error'] = 'O TTL mínimo são 60 segundos.';
 
 --|dns|br|br_dns_spf.lng
 <?php
-$wb['data_txt'] = 'Registro SPF';
+$wb['DNS SPF'] = 'Registro SPF';
 $wb['name_txt'] = 'Nome do host';
 $wb['spf_mechanism_txt'] = 'Mecanismo SPF';
 $wb['spf_mechanism_pass_txt'] = 'Pass - permitir emails de outros remetentes';
@@ -4347,6 +4367,7 @@ $wb['delete_confirmation'] = 'Tem certeza que deseja remover este registro?';
 
 --|dns|br|br_dns_sshfp.lng
 <?php
+$wb['DNS SSHFP'] = 'Registro SSHFP';
 $wb['server_id_txt'] = 'Servidor';
 $wb['zone_txt'] = 'Zona';
 $wb['name_txt'] = 'Nome do host';
@@ -4365,6 +4386,7 @@ $wb['ttl_range_error'] = 'O TTL mínimo são 60 segundos.';
 
 --|dns|br|br_dns_hinfo.lng
 <?php
+$wb['DNS HINFO'] = 'Registro HINFO';
 $wb['server_id_txt'] = 'Servidor';
 $wb['zone_txt'] = 'Zona';
 $wb['name_txt'] = 'Nome do host';
@@ -4467,6 +4489,7 @@ $wb['dnssec_algo_txt'] = 'Algoritmo DNSSEC';
 
 --|dns|br|br_dns_loc.lng
 <?php
+$wb['DNS LOC'] = 'Registro LOC';
 $wb['server_id_txt'] = 'Servidor';
 $wb['zone_txt'] = 'Zona';
 $wb['name_txt'] = 'Nome do host';
@@ -4551,6 +4574,7 @@ $wb['limit_dns_zone_txt'] = 'O limite de zonas DNS para esta conta foi alcançad
 
 --|dns|br|br_dns_dkim.lng
 <?php
+$wb['DNS DKIM'] = 'Registro DKIM';
 $wb['public_key_txt'] = 'Chave Pública';
 $wb['ttl_txt'] = 'TTL';
 $wb['active_txt'] = 'Ativo';
@@ -4617,7 +4641,7 @@ $wb['ttl_range_error'] = 'O TTL mínimo são 60 segundos.';
 
 --|dns|br|br_dns_dmarc.lng
 <?php
-$wb['data_txt'] = 'Registro DMARC';
+$wb['DNS DMARC'] = 'Registro DMARC';
 $wb['domain_txt'] = 'Domínio';
 $wb['dmarc_policy_txt'] = 'Política para recepção de emails';
 $wb['dmarc_policy_note_txt'] = 'Como os ISPs devem manipular as mensagens que falharam para SPF ou DKIM (DMARC).';
@@ -4669,7 +4693,9 @@ $wb['ttl_range_error'] = 'TTL mínimo são 60 segundos.';
 
 --|dns|br|br_dns_template.lng
 <?php
+$wb['DNS Wizard template'] = 'Gabarito do Assistente DNS';
 $wb['name_txt'] = 'Nome';
+$wb['DNS Template'] = 'Gabarito DNS';
 $wb['fields_txt'] = 'Campos';
 $wb['template_txt'] = 'Gabarito';
 $wb['visible_txt'] = 'Visível';
